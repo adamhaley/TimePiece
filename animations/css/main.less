@@ -1,7 +1,30 @@
 @import url('functions.less');
 
+body{
+	font-family:arial,helvetica,sans-serif;
+	color:#fff;
+	background-color:#000;
+
+}
+nav{
+	ul{
+		list-style-type: none;
+		li{
+			float:left;
+			margin-left:40px;
+			margin-top:20px;
+			a{
+				cursor:pointer;
+				&:hover{
+					color:#0093a4;
+				}
+			}
+		}
+	}
+}
+
 .sphere{
-	border:1px solid #000;
+	border:3px solid #0093a4;
 }
 
 .sphere1{
@@ -66,7 +89,7 @@
 		height: 50%;
 		/*border-right:1px solid grey;*/
 		z-index:10;
-		-webkit-transition: -webkit-transform 432s linear;
+		
 
 	}
 	/*slower*/
@@ -78,7 +101,7 @@
 		height: 50%;
 		/*border-right:1px solid grey;*/
 		z-index:20;
-		-webkit-transition: -webkit-transform 432s linear;
+		
 		
 	}
 	/*slowest*/
@@ -90,7 +113,7 @@
 		height: 50%;
 		/*border-right:1px solid grey;*/
 		z-index:30;
-		-webkit-transition: -webkit-transform 432s linear;
+		
 	}
 
 	
@@ -149,8 +172,8 @@
 
 		position:relative;
 		/*top:5%;*/
-
-		@spheresize: @groupsize * .08;
+		top:64%;
+		@spheresize: @groupsize * .06;
 		width:@spheresize;
 		height:@spheresize;
 		.radius(@spheresize * .5);
@@ -161,9 +184,9 @@
 	}
 	#sphere5{
 		position:relative;
-		top:-38%;
+		top:-50%;
 
-		@spheresize: @groupsize * .20;
+		@spheresize: @groupsize * .24;
 		width:@spheresize;
 		height:@spheresize;
 		.radius(@spheresize * .5);
@@ -172,7 +195,7 @@
 	}
 	#sphere6{
 		position:absolute;
-		top:-10%;
+		top:-8%;
 
 		@spheresize: @groupsize * .10;
 		width:@spheresize;
@@ -186,20 +209,81 @@
 	}
 }
 
+	.home{
+		#orbit1{
+			-webkit-transform: rotate(230deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit2{
+			-webkit-transform: rotate(230deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit3{
+			-webkit-transform: rotate(230deg);
+			-webkit-transform-origin: bottom center;
+		}
+	}
 
+	.opening{
+		#orbit1{
+			-webkit-transform: rotate(0deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit2{
+			-webkit-transform: rotate(0deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit3{
+			-webkit-transform: rotate(0deg);
+			-webkit-transform-origin: bottom center;
+		}
+	}
+
+	.act1{
+		#orbit1{
+			-webkit-transform: rotate(0deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit2{
+			-webkit-transform: rotate(0deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit3{
+			-webkit-transform: rotate(0deg);
+			-webkit-transform-origin: bottom center;
+		}
+	}
+
+	.act2{
+		#orbit1{
+			-webkit-transform: rotate(0deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit2{
+			-webkit-transform: rotate(0deg); 
+			-webkit-transform-origin: bottom center;
+		}
+		#orbit3{
+			-webkit-transform: rotate(0deg);
+			-webkit-transform-origin: bottom center;
+		}
+	}
 /*orbit classes for motion*/
 	.smooth-orbits-1{
 		#orbit1{
 			-webkit-transform: rotate(4320deg); /*720 * 360*/
 			-webkit-transform-origin: bottom center;
+			-webkit-transition: -webkit-transform 432s linear;
 		}
 		#orbit2{
 			-webkit-transform: rotate(43200deg); /*12 * 360*/
 			-webkit-transform-origin: bottom center;
+			-webkit-transition: -webkit-transform 432s linear;
 		}
 		#orbit3{
 			-webkit-transform: rotate(49200deg); /*1 * 360*/
 			-webkit-transform-origin: bottom center;
+			-webkit-transition: -webkit-transform 432s linear;
 		}
 
 	}

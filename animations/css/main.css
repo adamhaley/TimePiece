@@ -1,7 +1,26 @@
 /* begin less functions */
 /* end less functions */
+body {
+  font-family: arial, helvetica, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+nav ul li a {
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: #0093a4;
+}
 .sphere {
-  border: 1px solid #000;
+  border: 3px solid #0093a4;
 }
 .sphere1 {
   width: 100px;
@@ -75,7 +94,6 @@
   /*border-right:1px solid grey;*/
 
   z-index: 10;
-  -webkit-transition: -webkit-transform 432s linear;
 }
 #group2 #orbit2 {
   position: absolute;
@@ -86,7 +104,6 @@
   /*border-right:1px solid grey;*/
 
   z-index: 20;
-  -webkit-transition: -webkit-transform 432s linear;
 }
 #group2 #orbit3 {
   position: absolute;
@@ -97,7 +114,6 @@
   /*border-right:1px solid grey;*/
 
   z-index: 30;
-  -webkit-transition: -webkit-transform 432s linear;
 }
 #group2 #sphere1 {
   margin-left: auto;
@@ -157,13 +173,14 @@
   position: relative;
   /*top:5%;*/
 
-  width: 40px;
-  height: 40px;
+  top: 64%;
+  width: 30px;
+  height: 30px;
   /* RADIUS */
 
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
   /* END RADIUS */
 
   margin-left: auto;
@@ -171,14 +188,14 @@
 }
 #group2 #sphere5 {
   position: relative;
-  top: -38%;
-  width: 100px;
-  height: 100px;
+  top: -50%;
+  width: 120px;
+  height: 120px;
   /* RADIUS */
 
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
   /* END RADIUS */
 
   margin-left: auto;
@@ -186,7 +203,7 @@
 }
 #group2 #sphere6 {
   position: absolute;
-  top: -10%;
+  top: -8%;
   width: 50px;
   height: 50px;
   left: 25px;
@@ -200,22 +217,73 @@
   margin-left: auto;
   margin-right: auto;
 }
+.home #orbit1 {
+  -webkit-transform: rotate(230deg);
+  -webkit-transform-origin: bottom center;
+}
+.home #orbit2 {
+  -webkit-transform: rotate(230deg);
+  -webkit-transform-origin: bottom center;
+}
+.home #orbit3 {
+  -webkit-transform: rotate(230deg);
+  -webkit-transform-origin: bottom center;
+}
+.opening #orbit1 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.opening #orbit2 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.opening #orbit3 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.act1 #orbit1 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.act1 #orbit2 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.act1 #orbit3 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.act2 #orbit1 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.act2 #orbit2 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
+.act2 #orbit3 {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: bottom center;
+}
 /*orbit classes for motion*/
 .smooth-orbits-1 #orbit1 {
   -webkit-transform: rotate(4320deg);
   /*720 * 360*/
 
   -webkit-transform-origin: bottom center;
+  -webkit-transition: -webkit-transform 432s linear;
 }
 .smooth-orbits-1 #orbit2 {
   -webkit-transform: rotate(43200deg);
   /*12 * 360*/
 
   -webkit-transform-origin: bottom center;
+  -webkit-transition: -webkit-transform 432s linear;
 }
 .smooth-orbits-1 #orbit3 {
   -webkit-transform: rotate(49200deg);
   /*1 * 360*/
 
   -webkit-transform-origin: bottom center;
+  -webkit-transition: -webkit-transform 432s linear;
 }

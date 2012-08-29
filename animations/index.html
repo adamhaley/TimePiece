@@ -18,10 +18,26 @@
 </head>
 <body>
 	
-
+	<nav>
+		<ul>
+			<li><a id="stop">Stop</a></li>
+			<li><a id="smooth-orbits-1">Smooth Orbits 1</a></li>
+			<li><a id="opening">Opening</a></li>
+			<li><a id="act1">Act I</a></li>
+			<li><a id="act2">Act II - Primal Elements</a></li>
+			<li><a id="act3">Act III - Eyes On Fire</a></li>
+			<li><a id="act4">Act IV - Contortion</a></li>
+			<li><a id="act5">Act V - Jester</a></li>
+			<li><a id="act6">Act VI - Duo Act</a></li>
+			<li><a id="act7">Act VII - AH Solo</a></li>
+			<li><a id="act8">Act VIII - Innocent</a></li>
+			<li><a id="big-bang">Big Band/ brief history of time</a></li>
+			<li><a id="finale">Finale - Smooth Orbits</a></li>
+		</ul>
+	</nav>
 
 	<!-- Main Body -->
-	<div id="animations">
+	<div id="animations" class="home">
 		<div id="group1">
 			<div class="container">
 				<div class="sphere" id="sphere1">
@@ -55,7 +71,57 @@
 	</div>
 <script>
 	$(document).ready(function(){
-		 $('#animations').addClass('smooth-orbits-1');
+		$('#smooth-orbits-1').click(function(){
+			$('#animations').attr('class','')
+				.addClass('smooth-orbits-1');
+			
+
+		});
+		 
+		$('#stop').click(function(){
+			$('#animations').attr('class','home');
+		});
+
+		$('#opening').click(function(){
+			$('#animations').attr('class','opening');
+		});
+
+		$('#act1').click(function(){
+			$('#animations').attr('class','act1');
+		});
+
+		$('#act2').click(function(){
+			$('#animations').attr('class','act2');
+		});
+
+		$('#act3').click(function(){
+			$('#animations').attr('class','act3');
+		});
+
+		$('#act4').click(function(){
+			$('#animations').attr('class','act4');
+		});
+
+		$('#act5').click(function(){
+			$('#animations').attr('class','act5');
+		});
+
+		$('#act6').click(function(){
+			$('#animations').attr('class','act6');
+		});
+
+		$('#act7').click(function(){
+			$('#animations').attr('class','act7');
+		});
+
+		$('#act8').click(function(){
+			$('#animations').attr('class','act8');
+		});
+
+		$('#act9').click(function(){
+			$('#animations').attr('class','act9');
+		});
+
 	});	
 
 
