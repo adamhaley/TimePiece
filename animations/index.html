@@ -7,10 +7,6 @@
     <!-- Stylesheets -->
 	<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
 
-	
-<!--
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
--->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>	
 
@@ -71,56 +67,13 @@
 	</div>
 <script>
 	$(document).ready(function(){
-		$('#smooth-orbits-1').click(function(){
-			$('#animations').attr('class','')
-				.addClass('smooth-orbits-1');
+	
+		$('nav a').click(function(){
 			
-
-		});
-		 
-		$('#stop').click(function(){
-			$('#animations').attr('class','home');
+			var id = $(this).attr('id');
+			$('#animations').attr('class',id);
 		});
 
-		$('#opening').click(function(){
-			$('#animations').attr('class','opening');
-		});
-
-		$('#act1').click(function(){
-			$('#animations').attr('class','act1');
-		});
-
-		$('#primal').click(function(){
-			$('#animations').attr('class','primal');
-		});
-
-		$('#sexual').click(function(){
-			$('#animations').attr('class','sexual');
-		});
-
-		$('#contortion').click(function(){
-			$('#animations').attr('class','contortion');
-		});
-
-		$('#act5').click(function(){
-			$('#animations').attr('class','act5');
-		});
-
-		$('#act6').click(function(){
-			$('#animations').attr('class','act6');
-		});
-
-		$('#act7').click(function(){
-			$('#animations').attr('class','act7');
-		});
-
-		$('#act8').click(function(){
-			$('#animations').attr('class','act8');
-		});
-
-		$('#act9').click(function(){
-			$('#animations').attr('class','act9');
-		});
 
 	});	
 

@@ -128,7 +128,10 @@ nav{
 		top:(@groupsize * .5) - (@sphere1size * .5);
 		width:@sphere1size;
 		height:@sphere1size;
-		.radius(@sphere1size * .5);
+		.radius(50%);
+
+
+		/*.radius(@sphere1size * .5);*/
 	}
 	#sphere2{
 		margin-left:auto;
@@ -143,8 +146,8 @@ nav{
 		left:(@groupsize * .5) - (@spheresize * .5);
 		width:@spheresize;
 		height:@spheresize;
-		.radius(@spheresize * .5);
-
+		/*.radius(@spheresize * .5);*/
+		.radius(50%);
 		/*
 		position:absolute;
 		left:(@sphere1size * .5) - (@spheresize*.5);
@@ -160,8 +163,8 @@ nav{
 		@spheresize: @groupsize * .18;
 		width:@spheresize;
 		height:@spheresize;
-		.radius(@spheresize * .5);
-		
+		/*.radius(@spheresize * .5);*/
+		.radius(50%);
 		margin-left:auto;
 		margin-right:auto;
 		
@@ -176,8 +179,9 @@ nav{
 		@spheresize: @groupsize * .06;
 		width:@spheresize;
 		height:@spheresize;
-		.radius(@spheresize * .5);
-		
+		/*.radius(@spheresize * .5);*/
+		.radius(50%);
+
 		margin-left:auto;
 		margin-right:auto;
 		
@@ -189,7 +193,9 @@ nav{
 		@spheresize: @groupsize * .24;
 		width:@spheresize;
 		height:@spheresize;
-		.radius(@spheresize * .5);
+		/*.radius(@spheresize * .5);*/
+		.radius(50%);
+
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -202,14 +208,16 @@ nav{
 		height:@spheresize;
 
 		left:@spheresize * .5;
+		.radius(50%);
 
-		.radius(@spheresize * .5);
+
+		/*.radius(@spheresize * .5);*/
 		margin-left:auto;
 		margin-right:auto;
 	}
 }
 
-	.home{
+	.stop{
 		#orbit1{
 			-webkit-transform: rotate(230deg); 
 			
@@ -334,9 +342,24 @@ nav{
 			.transitions;
 			-webkit-transform: rotate(80deg); 
 		}
+	}
 
-
-
+	.act6{
+		.sphere{
+			border:3px solid #6648d8;
+		}
+		#orbit1{
+			.transitions;
+			-webkit-transform: rotate(50deg); 
+		}
+		#orbit2{
+			.transitions;
+			-webkit-transform: rotate(50deg); 
+		}
+		#orbit3{
+			.transitions;
+			-webkit-transform: rotate(50deg); 
+		}
 	}
 
 	
