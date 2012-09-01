@@ -47,7 +47,7 @@ nav{
 	width: @groupsize;
 	height:@groupsize;
 	position:absolute;
-	top:200px;
+	top:300px;
 	#sphere1{
 		width:100%;
 		height:100%;
@@ -75,7 +75,7 @@ nav{
 	height:@groupsize;
 	position:absolute;
 	left:400px;
-	top:100px;
+	top:200px;
 	@sphere1size: @groupsize * .7;
 
 	@orbitpos: @groupsize * .5 - (@sphere1size * .07);
@@ -346,22 +346,97 @@ nav{
 
 	.act6{
 		.sphere{
-			border:3px solid #6648d8;
+			border:3px solid #008c7d;
 		}
 		#orbit1{
 			.transitions;
-			-webkit-transform: rotate(50deg); 
+			-webkit-transform: rotate(-40deg); 
 		}
 		#orbit2{
 			.transitions;
-			-webkit-transform: rotate(50deg); 
+			-webkit-transform: rotate(25deg); 
 		}
 		#orbit3{
 			.transitions;
-			-webkit-transform: rotate(50deg); 
+			-webkit-transform: rotate(30deg); 
 		}
 	}
 
+	.act7{
+		.sphere{
+			border:3px solid #8c0028;
+		}
+		#orbit1{
+			.transitions;
+			-webkit-transform: rotate(20deg);
+		}
+		#orbit2{
+			.transitions;
+			-webkit-transform: rotate(-90deg);
+		}
+		#orbit3{
+			.transitions;
+			-webkit-transform: rotate(-10deg);
+		}
+	}
+
+	.act8{
+		.sphere{
+			border:3px solid #ffdce6;
+		}
+		#orbit1{
+			.transitions;
+			-webkit-transform: rotate(173deg);
+		}
+		#orbit2{
+			.transitions;
+			-webkit-transform: rotate(0deg);
+		}
+		#orbit3{
+			.transitions;
+			-webkit-transform: rotate(-8deg);
+		}
+	}
+	.big-bang{
+		.sphere{
+			border:3px solid #ffdce6;
+		}
+		#orbit1{
+			.transitions;
+			-webkit-transform: rotate(17300deg);
+			-webkit-transition: -webkit-transform 45s linear;
+		}
+		#orbit2{
+			.transitions;
+			-webkit-transform: rotate(1000deg);
+			-webkit-transition: -webkit-transform 45s linear;
+		}
+		#orbit3{
+			.transitions;
+			-webkit-transform: rotate(-800deg);
+			-webkit-transition: -webkit-transform 45s linear;
+		}
+	}
+	.finale{
+		.sphere{
+			border:3px solid #ffdce6;
+		}
+		#orbit1{
+			-webkit-transform: rotate(4320deg); /*720 * 360*/
+			
+			-webkit-transition: -webkit-transform 432s linear;
+		}
+		#orbit2{
+			-webkit-transform: rotate(43200deg); /*12 * 360*/
+			
+			-webkit-transition: -webkit-transform 432s linear;
+		}
+		#orbit3{
+			-webkit-transform: rotate(49200deg); /*1 * 360*/
+			
+			-webkit-transition: -webkit-transform 432s linear;
+		}
+	}
 	
 /*orbit classes for motion*/
 	.smooth-orbits-1{
