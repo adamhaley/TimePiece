@@ -233,42 +233,123 @@ nav ul li a:hover {
   margin-right: auto;
 }
 .stop #orbit1 {
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
   -webkit-transform: rotate(230deg);
 }
 .stop #orbit2 {
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
   -webkit-transform: rotate(230deg);
 }
 .stop #orbit3 {
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
   -webkit-transform: rotate(230deg);
 }
 .opening .sphere {
   border: 3px solid #fff;
 }
 .opening #orbit1 {
-  -webkit-transform: rotate(230deg);
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
+  -webkit-transform: rotate(590deg);
 }
 .opening #orbit2 {
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
   -webkit-transform: rotate(230deg);
 }
 .opening #orbit3 {
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
   -webkit-transform: rotate(230deg);
 }
 .act1 .sphere {
   border: 3px solid #fff;
 }
 .act1 #orbit1 {
-  -webkit-transform: rotate(230deg);
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
+  -webkit-transform: rotate(354deg);
 }
 .act1 #orbit2 {
-  -webkit-transform: rotate(230deg);
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
+  -webkit-transform: rotate(265deg);
 }
 .act1 #orbit3 {
-  -webkit-transform: rotate(230deg);
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
+  -webkit-transform: rotate(200deg);
 }
-.primal .sphere {
+.act2 .sphere {
   border: 3px solid #a41f00;
 }
-.primal #orbit1 {
+.act2 #orbit1 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -278,9 +359,9 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(200deg);
+  -webkit-transform: rotate(490deg);
 }
-.primal #orbit2 {
+.act2 #orbit2 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -290,9 +371,9 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(200deg);
+  -webkit-transform: rotate(720deg);
 }
-.primal #orbit3 {
+.act2 #orbit3 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -302,12 +383,12 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(200deg);
+  -webkit-transform: rotate(560deg);
 }
-.sexual .sphere {
+.act3 .sphere {
   border: 3px solid #a40078;
 }
-.sexual #orbit1 {
+.act3 #orbit1 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -317,9 +398,9 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(150deg);
+  -webkit-transform: rotate(170deg);
 }
-.sexual #orbit2 {
+.act3 #orbit2 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -329,9 +410,9 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(150deg);
+  -webkit-transform: rotate(175deg);
 }
-.sexual #orbit3 {
+.act3 #orbit3 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -341,12 +422,24 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(150deg);
+  -webkit-transform: rotate(80deg);
 }
-.contortion .sphere {
+.act4 .sphere {
   border: 3px solid #e2ba65;
 }
-.contortion #orbit1 {
+.act4 #orbit1 {
+  /* TRANSITIONS */
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  /* END TRANSITIONS */
+
+  -webkit-transform: rotate(30deg);
+}
+.act4 #orbit2 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -358,7 +451,7 @@ nav ul li a:hover {
 
   -webkit-transform: rotate(120deg);
 }
-.contortion #orbit2 {
+.act4 #orbit3 {
   /* TRANSITIONS */
 
   -webkit-transition: all 1s ease-in-out;
@@ -368,19 +461,7 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(120deg);
-}
-.contortion #orbit3 {
-  /* TRANSITIONS */
-
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  /* END TRANSITIONS */
-
-  -webkit-transform: rotate(120deg);
+  -webkit-transform: rotate(290deg);
 }
 .act5 .sphere {
   border: 3px solid #6648d8;
@@ -395,7 +476,7 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(80deg);
+  -webkit-transform: rotate(40deg);
 }
 .act5 #orbit2 {
   /* TRANSITIONS */
@@ -407,7 +488,7 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
   /* END TRANSITIONS */
 
-  -webkit-transform: rotate(80deg);
+  -webkit-transform: rotate(120deg);
 }
 .act5 #orbit3 {
   /* TRANSITIONS */
