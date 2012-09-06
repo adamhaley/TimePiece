@@ -68,10 +68,16 @@
 <script>
 	$(document).ready(function(){
 	
-		$('nav a').click(function(){
+		var steps = {
 			
+		}
+
+
+		$('nav a').click(function(){
+			// $('#animations').attr('class','big-bang');
 			var id = $(this).attr('id');
-			$('#animations').attr('class',id);
+
+			$('#animations').attr('class',id); 
 		});
 
 
